@@ -353,7 +353,7 @@ Header Style
 .header-area .main-nav {
   background: transparent;
   display: flex;
-  padding: 0px 30px;
+  padding: 0px 0px;
 }
 
 .background-header .main-nav {
@@ -362,7 +362,7 @@ Header Style
 }
 
 .header-area .main-nav .logo {
-  flex-basis: 20%;
+  flex-basis: 30%;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
