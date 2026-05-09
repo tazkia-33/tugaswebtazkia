@@ -2328,10 +2328,21 @@ body {
     padding: 0px;
   }
 }
+
+.header-area .main-nav .nav {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header-area .main-nav .nav li a {
+  padding: 5px 8px;
+  font-size: 14px;
+}
+
 .nav-btn {
-  background-color: white;
+  background: white;
   color: black !important;
-  padding: 5px 12px !important;
   border-radius: 5px;
-  border: 2px solid black;
+  padding: 5px 12px !important;
 }
