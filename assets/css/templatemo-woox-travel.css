@@ -2328,3 +2328,10 @@ body {
     padding: 0px;
   }
 }
+.nav-btn {
+  background-color: white;
+  color: black !important;
+  padding: 8px 18px !important;
+  border-radius: 5px;
+  border: 2px solid black;
+}
