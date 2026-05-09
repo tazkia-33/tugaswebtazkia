@@ -380,13 +380,17 @@ Header Style
 }
 
 .header-area .main-nav .nav {
-  flex-basis: 80%;
-  justify-content: flex-end;
-  vertical-align: middle;
-  margin-top: 5px;
-  margin-right: 0px;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  gap: 5px;
+
+  flex-basis: 70%;
+  margin-top: 0px;
+  margin-right: 0px;
+  position: relative;
+  z-index: 999;
 }
 
 .header-area .main-nav .nav li {
@@ -2328,11 +2332,8 @@ body {
     padding: 0px;
   }
 }
-
-.header-area .main-nav .nav {
-  display: flex;
-  align-items: center;
-  gap: 5px;
+.header-area .main-nav .nav li {
+  white-space: nowrap;
 }
 
 .header-area .main-nav .nav li a {
