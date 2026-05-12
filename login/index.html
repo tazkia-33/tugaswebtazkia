@@ -139,7 +139,7 @@ button{
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
-    <form>
+    <form id="loginForm">
         <h3>Login Here</h3>
 
         <label for="username">Username</label>
@@ -148,11 +148,17 @@ button{
         <label for="password">Password</label>
         <input type="password" placeholder="Password" id="password">
 
+      <div id="alertBox"
+      style="display:none; color:red; margin-top:10px;">
+      </div>
+
         <button>Log In</button>
         <div class="social">
           <div class="go"><i class="fab fa-google"></i>  Google</div>
           <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
         </div>
     </form>
+  
+  <script src="js/login.js"></script>
 </body>
 </html>
