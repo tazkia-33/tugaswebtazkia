@@ -16,7 +16,7 @@
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Login #3</title>
+    <title>Login </title>
   </head>
   <body>
   
@@ -33,7 +33,7 @@
               <h3>Login to <strong>Colorlib</strong></h3>
               <!-- <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p> -->
               </div>
-              <form action="#" method="post">
+              <form id="loginForm" action="#" method="post">
                 <div class="form-group first">
                   <label for="username">Username</label>
                   <input type="text" class="form-control" placeholder="your-email@gmail.com" id="username">
@@ -42,7 +42,10 @@
                   <label for="password">Password</label>
                   <input type="password" class="form-control" placeholder="Your Password" id="password">
                 </div>
-                
+
+                <div id="alertBox"
+                style="display:none; color:red; margin-bottom:10px;">
+                </div>
                 <div class="d-sm-flex mb-5 align-items-center">
                   <label class="control control--checkbox mb-3 mb-sm-0"><span class="caption">Remember me</span>
                     <input type="checkbox" checked="checked"/>
