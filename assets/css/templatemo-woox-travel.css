@@ -2348,22 +2348,15 @@ body {
   padding: 5px 12px !important;
 }
 
-#authArea {
-  list-style: none;
-  margin-left: 15px;
+form,
+input,
+button{
+    position: relative;
+    z-index: 9999;
+    pointer-events: auto;
 }
 
-#authArea .login-btn {
-  background-color: #22b3c1;
-  color: white;
-  border: none;
-  padding: 10px 25px;
-  border-radius: 30px;
-  font-weight: 600;
-  cursor: pointer;
-  display: inline-block;
-}
-
-#authArea .login-btn:hover {
-  opacity: 0.9;
+.background,
+.shape{
+    pointer-events: none;
 }
