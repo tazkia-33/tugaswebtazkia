@@ -2363,3 +2363,7 @@ body {
 .header-area .main-nav {
   align-items: center;
 }
+
+#authArea {
+  margin-left: 15px;
+}
