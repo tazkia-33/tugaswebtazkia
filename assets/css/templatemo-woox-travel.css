@@ -2349,45 +2349,21 @@ body {
 }
 
 #authArea {
-  margin-left: 20px;
-  position: relative;
-  z-index: 9999;
-}
-
-#authArea .border-button a {
-  pointer-events: auto;
-  position: relative;
-  z-index: 9999;
-}
-
-.header-area .main-nav {
-  align-items: center;
-}
-
-#authArea {
+  list-style: none;
   margin-left: 15px;
 }
 
-input,
-button {
-  pointer-events: auto;
-  position: relative;
-  z-index: 9999;
-}
-.background,
-.shape {
-  pointer-events: none;
+#authArea .login-btn {
+  background-color: #22b3c1;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
 }
 
-#authArea .login-btn {
-  background-color: #22b3c1 !important;
-  color: white !important;
-  border: none !important;
-  padding: 10px 20px !important;
-  border-radius: 25px !important;
-  cursor: pointer !important;
-  font-weight: 600 !important;
-  display: inline-block !important;
-  opacity: 1 !important;
-  visibility: visible !important;
+#authArea .login-btn:hover {
+  opacity: 0.9;
 }
