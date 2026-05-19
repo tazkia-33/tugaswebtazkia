@@ -68,8 +68,11 @@ https://templatemo.com/tm-580-woox-travel
                         </button>
                       </li>
 
-                      <p id="userInfo">Belum login</p>
+                     <li id="userInfo" style="color:white; margin-left:15px;">
+                      Belum login
+                     </li>
 
+                  </ul>
                     <a class="menu-trigger">
                        <span>Menu</span>
                     </a>
@@ -428,6 +431,15 @@ https://templatemo.com/tm-580-woox-travel
       bannerTimer = setInterval(bannerSwitcher, 5000)
     });
   </script>
+  <script>
+
+   const loginStatus = localStorage.getItem("isLoggedIn");
+   if(loginStatus === "true"){ document.getElementById("userInfo")
+    .innerText = "Sudah Login";
+
+}
+
+</script>
   <script src="js/welcome.js"></script> 
   
   </body>
