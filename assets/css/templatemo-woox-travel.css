@@ -2347,3 +2347,19 @@ body {
   border-radius: 5px;
   padding: 5px 12px !important;
 }
+
+#authArea {
+  margin-left: 20px;
+  position: relative;
+  z-index: 9999;
+}
+
+#authArea .border-button a {
+  pointer-events: auto;
+  position: relative;
+  z-index: 9999;
+}
+
+.header-area .main-nav {
+  align-items: center;
+}
