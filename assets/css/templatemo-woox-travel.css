@@ -2379,16 +2379,15 @@ button {
   pointer-events: none;
 }
 
-.login-btn {
-  background-color: #22b3c1;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 25px;
-  cursor: pointer;
-  font-weight: 600;
-}
-
-.login-btn:hover {
-  opacity: 0.9;
+#authArea .login-btn {
+  background-color: #22b3c1 !important;
+  color: white !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  border-radius: 25px !important;
+  cursor: pointer !important;
+  font-weight: 600 !important;
+  display: inline-block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
