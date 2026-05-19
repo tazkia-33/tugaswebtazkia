@@ -434,8 +434,10 @@ https://templatemo.com/tm-580-woox-travel
   <script>
 
    const loginStatus = localStorage.getItem("isLoggedIn");
-   if(loginStatus === "true"){ document.getElementById("userInfo")
-    .innerText = "Sudah Login";
+   if(loginStatus === "true"){ 
+   const username = localStorage.getItem("username");
+   document.getElementById("userInfo")
+   .innerText = "Halo, " + username;
 
 }
 
