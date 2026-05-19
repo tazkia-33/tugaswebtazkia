@@ -20,25 +20,5 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
         alert("Username atau password salah!");
 
     }
- const savedUser =
-      localStorage.getItem("username");
-
-    const savedPass =
-      localStorage.getItem("password");
-
-    if(username === savedUser &&
-       password === savedPass){
-
-        alert("Login berhasil!");
-
-        localStorage.setItem("isLoggedIn", "true");
-
-        window.location.href = "../index.html";
-
-    } else {
-
-        alert("Username atau password salah!");
-
-    }
-   
+ 
 });
