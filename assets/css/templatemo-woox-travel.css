@@ -2367,3 +2367,28 @@ body {
 #authArea {
   margin-left: 15px;
 }
+
+input,
+button {
+  pointer-events: auto;
+  position: relative;
+  z-index: 9999;
+}
+.background,
+.shape {
+  pointer-events: none;
+}
+
+.login-btn {
+  background-color: #22b3c1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.login-btn:hover {
+  opacity: 0.9;
+}
