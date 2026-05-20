@@ -432,14 +432,38 @@ https://templatemo.com/tm-580-woox-travel
     });
   </script>
   <script>
-
-   const loginStatus = localStorage.getItem("isLoggedIn");
-   if(loginStatus === "true"){ 
-   const username = localStorage.getItem("username");
-   document.getElementById("userInfo")
-   .innerText = "Halo, " + username;
+const loginStatus = localStorage.getItem("isLoggedIn");
+const userInfo = document.getElementById("userInfo");
+const authArea = document.getElementById("authArea");
+if(loginStatus === "true"){
+const username = localStorage.getItem("username");
+userInfo.innerText = "Halo, " + username;
+authArea.innerHTML = `
+      <button class="login-btn"
+      onclick="logout()">
+      Logout
+      </button>
+    `;
 
 }
+
+function logout(){
+
+    localStorage.removeItem("isLoggedIn");
+
+    userInfo.innerText =
+      "Belum login";
+
+    authArea.innerHTML = `
+      <button class="login-btn"
+      onclick="window.location.href='login/index.html'">
+      Login
+      </button>
+    `;
+
+}
+
+</script>
 
 </script>
   <script src="js/welcome.js"></script> 
